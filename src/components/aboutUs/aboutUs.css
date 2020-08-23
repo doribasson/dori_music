@@ -1,0 +1,110 @@
+.container-aboutUs {
+  display: flex;
+  /* background-color: red; */
+  flex-direction: column;
+  width: 99%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-size: cover;
+  border-radius: 10px;
+  opacity: 0.83;
+  margin-left: 1rem;
+  color: white;
+  margin-top: 0rem;
+  overflow-x: hidden;
+}
+
+.title-aboutUs {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: -3rem;
+  /* background-color: green; */
+  width: 100%;
+  animation: rollIn;
+  font-size: 3rem;
+  animation-duration: 1s;
+}
+
+.container-aboutUs > p {
+  margin-top: 4rem;
+  /* background-color: red; */
+  padding: 5px;
+  font-size: 2rem;
+  width: 70%;
+  display: flex;
+  align-self: center;
+}
+
+/* ---------------------scrollbar----------------------- */
+
+.container-aboutUs::-webkit-scrollbar-track {
+  border: 1px solid #000;
+  padding: 2px 0;
+  background-color: #404040;
+}
+
+.container-aboutUs::-webkit-scrollbar {
+  width: 10px;
+  /* display: none; */
+}
+
+.container-aboutUs::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #737272;
+  border: 1px solid #000;
+}
+
+/* -------------------------------------------- */
+
+@media (max-width: 768px) {
+  .title-aboutUs {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    opacity: 1;
+    margin-left: -1rem;
+    width: 100%;
+    animation: rollIn;
+    font-size: 2rem;
+    animation-duration: 1s;
+  }
+
+  .container-aboutUs > p {
+    margin-top: 1rem;
+    margin-left: 0rem;
+    padding: 5px;
+    font-size: 1rem;
+    width: 85%;
+    display: flex;
+    align-self: center;
+    /* background-color: red; */
+  }
+
+  .container-aboutUs {
+    margin-left: 0.3rem;
+    margin-top: -3.5rem;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .container-aboutUs::-webkit-scrollbar-track {
+    border: 1px solid #000;
+    padding: 2px 0;
+    background-color: #404040;
+  }
+
+  .container-aboutUs::-webkit-scrollbar {
+    width: 10px;
+    /* display: none; */
+  }
+
+  .container-aboutUs::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #737272;
+    border: 1px solid #000;
+  }
+}
