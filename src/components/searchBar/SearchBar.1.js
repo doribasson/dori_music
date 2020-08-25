@@ -40,5 +40,22 @@ export default ({ onSubmit }) => {
         </button>
       </div>
     </div>
+    // <Paper
+    //   className="search"
+    //   // elevation={6}
+    //   style={{
+    //     background: "",
+    //     borderRadius: "10px"
+    //   }}
+    // >
+    //   <TextField
+    //     style={{ borderRadius: "55px" }}
+    //     fullWidth
+    //     label="Search..."
+    //     value={searchTerm}
+    //     onChange={handleChange}
+    //     onKeyPress={onKeyPress}
+    //   />
+    // </Paper>
   );
 };

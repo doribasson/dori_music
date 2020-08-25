@@ -1,91 +1,64 @@
-/* ----------------------animation--------------------- */
-
-/* ----------------------/animation--------------------- */
-
-.container-favoritee {
+.container-favorite {
   display: flex;
   /* background-color: red; */
+  align-items: center;
   flex-direction: column;
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: flex-start;
-  background-size: cover;
   border-radius: 10px;
-  /* border: 4px solid black; */
-  opacity: 0.83;
-  margin-left: 1rem;
-  /* position: relative; */
+  /* margin-left: 1rem; */
   color: white;
+  /* overflow-x: hidden; */
 }
-
-.all-favorite-video {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-.favorite-container {
-  display: flex;
-  flex-direction: row;
-  /* justify-content: space-evenly; */
-  flex-wrap: wrap;
-  padding: 30px;
-  min-width: 30%;
-  height: 40%;
-  /* background-color: black; */
-}
-
-/* ---------------------scrollbar----------------------- */
-
-.all-favorite-video::-webkit-scrollbar-track {
-  border: 1px solid #000;
-  padding: 2px 0;
-  background-color: #404040;
-}
-
-.all-favorite-video::-webkit-scrollbar {
-  width: 10px;
-  /* display: none; */
-}
-
-.all-favorite-video::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #737272;
-  border: 1px solid #000;
-}
-
-/* -------------------------------------------- */
-
 .title-favorite {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 0rem;
   width: 100%;
   flex-direction: row;
   font-size: 3rem;
   animation: rollIn;
   animation-duration: 1s;
-  /* background-color: green; */
 
   /* background-color: blue; */
 }
 
-.favorite-title {
+.choose-song-title {
   /* display: flex; */
   /* background-color: red; */
-  display: block;
+  display: flex;
   text-align: center;
   justify-content: center;
   align-self: center;
   margin-top: 10rem;
   width: 100%;
   font-size: 2rem;
-  margin-left: 1.5rem;
 }
+
+.all-favorite-video {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 800px;
+  overflow-x: hidden;
+}
+
+.favorite-container {
+  display: flex;
+  margin: 1rem;
+  padding: 15px;
+  flex-direction: column;
+}
+/* .favorite-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  min-width: 30%;
+  height: 40%;
+} */
 
 .fas.fa-heart.fa-2x.favorite {
   height: 10px;
@@ -100,7 +73,7 @@
   cursor: pointer;
 
   /* margin-top: 1.7rem;
-  margin-left: 0.6rem; */
+    margin-left: 0.6rem; */
   /* transition: all 0.2s ease-in-out; */
 }
 
@@ -117,57 +90,67 @@
 }
 
 /* 
-.favorite-container > .fas.fa-heart.fa-2x {
-  color: white;
-  margin-top: 1.6rem;
-} */
+  .favorite-container > .fas.fa-heart.fa-2x {
+    color: white;
+    margin-top: 1.6rem;
+  } */
 /* .favorite-container > .fas.fa-heart.fa-2x:hover {
-  color: black;
-  transform: scale(1.2);
-} */
+    color: black;
+    transform: scale(1.2);
+  } */
 
-@media (max-width: 768px) {
-  .container-favorite {
-    margin-top: -4.5rem;
+.myspinner {
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 6rem;
+  height: 100vh;
+  overflow-x: hidden;
+}
 
-    background-color: inherit;
-    margin-left: -0.5rem;
-    overflow-x: hidden;
-  }
+/* ---------------------scrollbar----------------------- */
 
-  .all-favorite-video {
-    /* background-color: red; */
-    min-width: 100vw;
-    margin-left: -0.8rem;
-  }
+.all-favorite-video::-webkit-scrollbar-track {
+  border: 1px solid #000;
+  padding: 2px 0;
+  background-color: #404040;
+}
 
-  .title-favorite {
-    font-size: 2rem;
+.all-favorite-video::-webkit-scrollbar {
+  width: 10px;
+
+  /* display: none; */
+}
+
+.all-favorite-video::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #737272;
+  border: 1px solid #000;
+}
+
+/* -------------------------------------------- */
+
+@media (max-width: 700px) {
+  .myspinner {
+    width: 90%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
     justify-content: center;
-    height: 10%;
-    margin-left: -0.5rem;
-    margin-top: 7rem;
+    margin-top: -10rem;
+    height: 100vh;
   }
 
-  .favorite-title {
+  .choose-song-title {
     display: block;
     /* background-color: red; */
     justify-content: center;
-    margin-top: 2rem;
-    font-size: 0.8rem;
-    width: 89%;
+    margin-top: -15rem;
+    font-size: 1.1rem;
+    width: 80%;
     text-align: center;
     /* background-color: red; */
-  }
-
-  .favorite-container {
-    width: 100%;
-    /* height: 200px; */
-  }
-
-  .myspinner {
-    display: flex;
-    margin-left: -1rem;
-    width: 100%;
   }
 }

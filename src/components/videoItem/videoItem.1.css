@@ -1,18 +1,14 @@
 .item-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  /* margin-top: 5rem; */
-  align-items: center;
-  justify-items: center;
-  /* background-color: black; */
+  margin-top: 5rem;
   padding: 15px;
-  /* margin-left: -16px; */
-  width: 32.7%;
-  /* flex-basis: 25%; */
+  margin-left: -16px;
+  width: 450px;
 }
-
 .item-container > img {
-  flex-basis: 33.3%;
+  max-width: 385px;
   height: 200px;
   /* background-color: red; */
   cursor: pointer;
@@ -23,12 +19,10 @@
   font-size: 1rem;
   color: white;
   background-color: #3e4265;
-  flex-basis: 90%;
-  margin-left: 10px;
-  /* width: 100%; */
-  height: fit-content;
-  /* height: 60px; */
+  width: 388px;
+  min-height: 90px;
   display: flex;
+  align-content: flex-end;
   align-items: flex-start;
   opacity: 0.73;
 }
@@ -38,51 +32,50 @@ img[alt] {
   background-color: white;
   font-size: 2rem;
   line-height: 10rem;
-  margin-left: 10px;
-  /* min-width: 388px; */
-  min-width: 90%;
-  min-height: 200px;
+  margin-left: 2px;
   text-align: center;
   font-style: italic;
 }
 
+/* .item-container > img {
+  width: 300px;
+  height: 180px;
+} */
+
 @media (max-width: 768px) {
   .item-container {
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
     flex-direction: row;
-    width: 100%;
-    /* background-color: blue; */
+    /* width: 55%; */
   }
   .item-container > img {
-    display: flex;
-    min-width: 100%;
-    /* background-color: blue; */
+    /* max-width: 300px; */
+    width: 320px;
+    height: 150px;
+    margin-left: -1rem;
   }
 
   .Typography {
-    /* padding: 0.5rem; */
+    padding: 0.5rem;
     font-size: 0.9rem;
     color: white;
     /* background-color: green; */
-    width: 100vw;
-    min-height: 40%;
-    min-width: 100%;
-    /* background-color: red; */
+    width: 320px;
+    max-height: 100%;
+    background-color: #3e4265;
     opacity: 1;
-    line-height: 20px;
-    /* margin-left: -1rem; */
+    margin-left: -1rem;
     /* box-shadow: 5px 5px 5px 2px #888888; */
     color: white;
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     opacity: 0.73;
   }
 
   .Typography > span {
     width: 85%;
-    padding: 0.5rem;
-
     /* background-color: red; */
   }
 }

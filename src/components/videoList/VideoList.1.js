@@ -8,9 +8,8 @@ export default ({ videos, onVideoSelect }) => {
     (video, i) =>
       i > 0 && (
         <VideoItem
-          // key={video.id.videoId}
-          key={i}
           onVideoSelect={onVideoSelect}
+          key={video.id.videoId}
           video={video}
         />
       )

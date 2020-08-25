@@ -49,7 +49,7 @@ const Favorite = () => {
             );
           })
         ) : (
-          <p className="choose-song-title">
+          <p className="favorite-title">
             First, you need to choose a song in the
             <Link to="/">
               &nbsp;<u>home</u>&nbsp;

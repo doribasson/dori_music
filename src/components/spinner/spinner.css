@@ -5,12 +5,13 @@
 }
 
 .spinner {
+  margin-top: 3rem;
   /* margin-top: 10rem;
   margin-left: 43rem; */
-  position: relative;
+  /* position: relative;
   top: 0;
   left: 0;
-  transform: translate(40%, 20%);
+  transform: translate(40%, 20%); */
 
   /* transform: translate(50%, 50%); */
   /* transform: scale(0.5); */
@@ -83,8 +84,8 @@
 
 @media (max-width: 500px) {
   .spinner {
-    margin-top: 6rem;
-    margin-left: 5rem;
+    margin-top: 0rem;
+    /* margin-left: 5rem; */
     width: 200px;
     height: 200px;
     transform: scale(0.5);

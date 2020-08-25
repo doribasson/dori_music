@@ -7,9 +7,9 @@ const NavBar = () => {
   return (
     <div className="sideNav">
       <div className="mylogo">
-        <span
+        <img
           className="logo"
-          // src={require("../../assets/logo-music.png")}
+          src={require("../../assets/logo-music.png")}
           // alt=""
         />
       </div>

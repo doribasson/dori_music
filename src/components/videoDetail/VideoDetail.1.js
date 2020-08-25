@@ -8,9 +8,7 @@ export default ({ video }) => {
       // <div className="title anim-typewriter">
       //   What do you want to listen today?
       // </div>
-      <div className="container-listen-title">
-        <div className="listen-title">What do you want to listen today?</div>
-      </div>
+      <div className="listen-title">What do you want to listen today?</div>
     );
 
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}?vq=hd720p60`;
@@ -20,7 +18,7 @@ export default ({ video }) => {
       <div className="Myiframe">
         <iframe
           frameBorder="0"
-          height="100%"
+          Height="100%"
           width="100%"
           title="Video Player"
           src={videoSrc}
