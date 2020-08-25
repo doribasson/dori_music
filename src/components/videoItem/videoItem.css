@@ -26,8 +26,8 @@
   flex-basis: 90%;
   margin-left: 10px;
   /* width: 100%; */
-  height: fit-content;
-  /* height: 60px; */
+  /* height: fit-content; */
+  height: 60px;
   display: flex;
   align-items: flex-start;
   opacity: 0.73;
