@@ -1,0 +1,130 @@
+.MuiTextField-root {
+  border-radius: 15px;
+  /* background-color: red; */
+}
+
+.input-group.mb-3 {
+  width: 90%;
+  margin-left: -2rem;
+  margin-top: 0rem;
+  /* z-index: -1; */
+}
+
+.form-control {
+  /* background-color: hsl(224, 39%, 20%); */
+  border-color: white;
+  color: black;
+
+  /* border-radius: 10px; */
+
+  /* border-color: white; */
+}
+
+.form-control:focus {
+  color: black;
+  /* background-color: white; */
+  /* background-color: hsl(224, 39%, 20%); */
+  /* border-radius: 10px; */
+
+  /* border-color: white;
+  outline: none; */
+}
+
+.btn.btn-light {
+  outline: none;
+  border: none;
+  background-color: rgb(177, 174, 174);
+}
+
+@media (max-width: 768px) {
+  .input-group.mb-3 {
+    /* width: 93.5%;
+    margin-left: 0.1rem;
+    margin-top: 7rem; */
+    display: flex;
+    width: 93%;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    z-index: 2;
+  }
+
+  .btn.btn-light {
+    z-index: 2;
+  }
+}
+
+/* @media (max-width: 1370px) {
+  .search {
+    padding: 15px;
+    margin-top: -1rem;
+    width: 85%;
+    height: 5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 1130px) {
+  .search {
+    padding: 15px;
+    margin-top: -1rem;
+    width: 80%;
+    height: 5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .search {
+    padding: 15px;
+    margin-top: -1rem;
+    width: 75%;
+    height: 5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .search {
+    padding: 15px;
+    margin-top: -1rem;
+    width: 70%;
+    height: 5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .search {
+    padding: 15px;
+    margin-top: -1rem;
+    width: 60%;
+    height: 5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 669px) {
+  .search {
+    padding: 15px;
+    margin-top: -1rem;
+    width: 55%;
+    height: 5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 565px) {
+  .search {
+    padding: 15px;
+    margin-top: -1rem;
+    width: 40%;
+    height: 5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+} */

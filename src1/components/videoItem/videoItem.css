@@ -27,7 +27,7 @@
   margin-left: 10px;
   /* width: 100%; */
   /* height: fit-content; */
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: flex-start;
   opacity: 0.73;
@@ -52,8 +52,6 @@ img[alt] {
     margin-top: 6rem;
     flex-direction: row;
     width: 100%;
-    height: 0%;
-    margin: 0;
     /* background-color: blue; */
   }
   .item-container > img {
@@ -68,7 +66,7 @@ img[alt] {
     color: white;
     /* background-color: green; */
     width: 100vw;
-    min-height: 80px;
+    min-height: 40%;
     min-width: 100%;
     /* background-color: red; */
     opacity: 1;

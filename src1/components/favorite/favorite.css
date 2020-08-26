@@ -1,3 +1,7 @@
+.container-favorite::-webkit-scrollbar {
+  display: none;
+}
+
 .container-favorite {
   display: flex;
   /* background-color: red; */
@@ -42,7 +46,7 @@
   justify-content: center;
   flex-wrap: wrap;
   flex-basis: 800px;
-  overflow-x: hidden;
+  overflow-y: overlay;
 }
 
 .favorite-container {
@@ -106,13 +110,7 @@
   width: 100%;
   margin-top: 6rem;
   height: 100vh;
-  overflow-x: overlay;
-}
-
-.myspinner::-webkit-scrollbar {
-  width: 10px;
-
-  display: none;
+  overflow-x: hidden;
 }
 
 /* ---------------------scrollbar----------------------- */
