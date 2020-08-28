@@ -5,9 +5,6 @@ import "./videoDetail.css";
 export default ({ video }) => {
   if (!video)
     return (
-      // <div className="title anim-typewriter">
-      //   What do you want to listen today?
-      // </div>
       <div className="container-listen-title">
         <div className="listen-title">What do you want to listen today?</div>
       </div>

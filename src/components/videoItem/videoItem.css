@@ -7,7 +7,7 @@
   /* background-color: black; */
   padding: 15px;
   /* margin-left: -16px; */
-  width: 32.7%;
+  width: 30.7%;
   /* flex-basis: 25%; */
 }
 
@@ -23,8 +23,8 @@
   font-size: 1rem;
   color: white;
   background-color: #3e4265;
-  flex-basis: 90%;
-  margin-left: 10px;
+  flex-basis: 95%;
+  margin-left: -1rem;
   /* width: 100%; */
   /* height: fit-content; */
   height: 80px;
@@ -38,9 +38,9 @@ img[alt] {
   background-color: white;
   font-size: 2rem;
   line-height: 10rem;
-  margin-left: 10px;
+  margin-left: -1rem;
   /* min-width: 388px; */
-  min-width: 90%;
+  min-width: 95%;
   min-height: 200px;
   text-align: center;
   font-style: italic;

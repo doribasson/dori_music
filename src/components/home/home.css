@@ -1,18 +1,30 @@
 .contentSideView {
   display: flex;
-  width: 100%;
-  height: 93vh;
+  width: 96%;
+  height: 91vh;
   flex-direction: column;
   align-items: center;
+  margin-top: 3.5rem;
+  margin-left: 1rem;
 
   /* background-color: red; */
+}
+
+.video {
+  margin-left: 10rem;
+}
+
+.video::-webkit-scrollbar {
+  display: none;
 }
 
 @media (max-width: 700px) {
   .contentSideView {
     /* background-color: red; */
-    height: 93vh;
-    margin-left: 0rem;
+    /* height: 93vh; */
+    height: 80vh;
+    margin-left: 0.6rem;
+    margin-top: 0rem;
   }
 
   .video {

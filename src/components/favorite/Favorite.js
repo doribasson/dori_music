@@ -50,11 +50,12 @@ const Favorite = () => {
           })
         ) : (
           <p className="choose-song-title">
-            First, you need to choose a song in the
+            First, you need to choose a song in the&nbsp;
             <Link to="/">
-              &nbsp;<u>home</u>&nbsp;
+              {/* <u>home</u>    or u tag with no css */}
+              <span>home</span>
             </Link>
-            page
+            &nbsp;page
           </p>
         )}
       </div>

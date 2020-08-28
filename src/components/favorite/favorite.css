@@ -3,8 +3,8 @@
   /* background-color: red; */
   align-items: center;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 92%;
+  height: 80vh;
   display: flex;
   border-radius: 10px;
   /* margin-left: 1rem; */
@@ -14,7 +14,7 @@
 .title-favorite {
   display: flex;
   justify-content: center;
-  margin-top: 0rem;
+  margin-top: 1rem;
   width: 100%;
   flex-direction: row;
   font-size: 3rem;
@@ -31,9 +31,20 @@
   text-align: center;
   justify-content: center;
   align-self: center;
-  margin-top: 10rem;
+  margin-top: -15rem;
   width: 100%;
   font-size: 2rem;
+}
+
+.choose-song-title span {
+  text-decoration-color: white;
+  text-decoration: underline;
+  color: white;
+  font-weight: 500;
+}
+
+.choose-song-title span:hover {
+  text-decoration-color: white;
 }
 
 .all-favorite-video {
@@ -41,15 +52,23 @@
   /* align-items: center; */
   justify-content: center;
   flex-wrap: wrap;
-  flex-basis: 800px;
+  /* flex-basis: 35.3%; */
+  /* max-width: 400px; */
+  width: 100%;
+  height: 77vh;
+  /* background-color: red; */
   overflow-x: hidden;
 }
 
 .favorite-container {
   display: flex;
+  /* margin: auto; */
   margin: 1rem;
   padding: 15px;
-  flex-direction: column;
+  min-width: 330px;
+  /* flex-basis: 330px; */
+  height: 300px;
+  flex-wrap: wrap;
 }
 /* .favorite-container {
   display: flex;
@@ -104,7 +123,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 5rem;
   height: 100vh;
   overflow-x: overlay;
 }
@@ -139,13 +158,23 @@
 /* -------------------------------------------- */
 
 @media (max-width: 700px) {
+  .title-favorite {
+    margin-left: -1rem;
+    margin-top: -3rem;
+  }
+  .container-favorite {
+    /* background-color: red; */
+    /* height: 100%; */
+    height: 72vh;
+    margin-top: 2rem;
+  }
   .myspinner {
     width: 90%;
     /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -10rem;
+    margin-top: -5rem;
     height: 100vh;
   }
 
@@ -154,7 +183,7 @@
     /* background-color: red; */
     justify-content: center;
     margin-top: -15rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     width: 80%;
     text-align: center;
     /* background-color: red; */

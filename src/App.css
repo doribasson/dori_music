@@ -1,24 +1,36 @@
 .mainContainer {
+  display: grid;
+  place-items: center;
+  /* justify-content: flex-start; */
+  /* background: red; */
+  border-radius: 10px;
+  width: 90%;
+  height: 97vh;
+  margin-top: 1.3rem;
+  margin-left: 2em;
+  color: white;
+}
+/* .mainContainer {
   display: flex;
   justify-content: flex-start;
-  /* background: red; */
+  background: red;
   border-radius: 10px;
   width: 100%;
   height: 97vh;
   margin-top: 1.3rem;
   margin-left: 2em;
   color: white;
-}
+} */
 
 .second-container {
-  align-content: center;
-  display: flex;
+  display: grid;
+  place-items: center;
   width: 85%;
   /* background-color: blue; */
   height: 96.5%;
   margin-left: 15.5rem;
   /* overflow-x: hidden; */
-  margin-top: 1rem;
+  margin-top: -7rem;
   z-index: 1;
 }
 
@@ -60,13 +72,14 @@
   }
 
   .second-container {
-    /* background-color: blue; */
+    background-color: inherit;
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 5.5rem;
     width: 100%;
     margin-left: 0rem;
+    height: 80%;
     /* z-index: -1; */
     /* overflow-x: hidden; */
   }

@@ -1,17 +1,18 @@
 import React from "react";
 import "./navBar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import MyDialog from "../myDialog/MyDialog";
 
 const NavBar = () => {
   return (
     <div className="sideNav">
       <div className="mylogo">
-        <span
+        <Link
+          to="/"
           className="logo"
-          // src={require("../../assets/logo-music.png")}
-          // alt=""
-        />
+          src={require("../../assets/logo-music.png")}
+          alt="logo"
+        ></Link>
       </div>
       <ul>
         <li>
